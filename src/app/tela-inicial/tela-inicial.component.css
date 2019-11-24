@@ -1,3 +1,13 @@
+.row{
+	background-image: url(xlocar.png);
+	background-size: 300px;
+}
+.card{
+	background-color: grey;
+}
+.card-header{
+	background-color: #4E6FF4;
+}
 .perfil-car{
     background-color:#fff;
     box-shadow:2px 1px 1px 2px #CCC;
