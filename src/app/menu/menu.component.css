@@ -1,0 +1,43 @@
+.btn {
+	animation-name: flash1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.dropdown-menu :not(.dropdown-item) {
+	animation-name: flash1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.navbar {
+	animation-name: flash2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes flash1 {
+	0% {
+		background: #FFFFFF;
+	}
+	55%{
+		background: #FF0000;
+	}
+	100% {
+		background: #0051FF;
+	}
+}
+
+@keyframes flash2 {
+	0% {
+		background: #737070;
+	}
+
+	50% {
+		background: #494646;
+	}
+
+	1000% {
+		background: #2D2B2B;
+	}
+}
